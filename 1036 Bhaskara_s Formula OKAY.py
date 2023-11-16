@@ -14,16 +14,5 @@ if delta <0 or a ==0:
 else :
     x1 = (-b + delta**0.5) / (2*a)
     x2 = (-b - delta**0.5) / (2*a)
-    print(f'R1 = {x2:.5f}')
-    print(f'R2 = {x1:.5f}')
-
-
-
-
-
-
-
-
-
-
-
+    print(f'R1 = {x1:.5f}')
+    print(f'R2 = {x2:.5f}')
